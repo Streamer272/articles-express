@@ -1,5 +1,6 @@
 const express = require('express');
 const { endpointHit } = require('./logger');
+
 const app = express();
 
 app.use(express.json());
